@@ -1,0 +1,26 @@
+.rightNavigation {
+    position: fixed;
+    right: 68px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    list-style: none;
+    border: 1px solid #9999;
+    border-radius: 30px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+li {
+    transition: color 0.5s ease; 
+}
+li:hover {
+    color: #28e98c;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+}

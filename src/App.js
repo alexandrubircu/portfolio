@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import background from './assets/video/background.mp4'
+import LeftSidebar from './components/LeftSidebar'
+import RightNavigation from './components/RightNavigation';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mainWrapper">
+      <video className='backVideo' autoPlay loop muted>
+        <source src={background} type='video/mp4'/>
+      </video>
+      <LeftSidebar/>
+      <RightNavigation/>
     </div>
   );
 }
