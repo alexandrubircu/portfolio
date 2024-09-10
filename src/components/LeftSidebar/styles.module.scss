@@ -1,10 +1,10 @@
 .leftSidebar{
-    max-width: 300px;
+    max-width: 350px;
     width: 100%;
     border-radius: 30px;
     border: 1px solid #565656;
     position: fixed;
-    left: 20px;
+    left: 30px;
     top: 50%;
     transform: translateY(-50%);
     padding: 30px;
@@ -20,18 +20,24 @@
         margin-right: auto;
         margin-bottom: 30px;
     }
-        h3{
+    h3{
         font-size: 24px;
         color: #fff;
         text-align: center;
         font-weight: 300;
+    }
+    p{
+        color: gray;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 10px 0px;
     }
     ul {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin: 15px 0px;
+        margin-bottom: 15px;
         list-style: none;
     }
     .icon{

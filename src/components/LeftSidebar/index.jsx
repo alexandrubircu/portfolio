@@ -10,7 +10,8 @@ const LeftSidebar = () => {
     return (
         <div className={styles.leftSidebar}>
             <img src={leftSideImage} alt="HI" />
-            <h3>Alexandru</h3>
+            <h3>Alexander</h3>
+            <p>© 2024 Bircu Alexandru</p>
             <ul>
                 <li>
                     <a href="https://github.com" target="_blank">

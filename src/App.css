@@ -1,15 +1,24 @@
 .mainWrapper{
-  background-color: black;
-  width: 100%;
-  min-height: 100vh;
   position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 .backVideo{
-  opacity: 0.4;
+  opacity: 0.5;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: -1;
+}
+content{
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
+}
+.LeftSidebar , .RightNavigation {
+  z-index: 2;
 }
