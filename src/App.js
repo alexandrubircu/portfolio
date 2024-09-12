@@ -5,7 +5,7 @@ import LeftSidebar from './components/LeftSidebar';
 import RightNavigation from './components/RightNavigation';
 
 import Home from './components/Content/Home/index';
-// import About from './components/Content/About/index';
+import About from './components/Content/About/index';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <LeftSidebar/>
       <div className='content'>
         <Home/>
+        <About/>
       </div>
 
       <video className='backVideo' autoPlay loop muted>

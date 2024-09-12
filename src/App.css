@@ -14,7 +14,7 @@
   z-index: -1;
 }
 .content{
-  padding: 150px;
+  padding-top: 150px;
   width: 100%;
   height: 100vh;
   z-index: 1;
@@ -33,8 +33,8 @@
     padding: 0px 20px;
   }
  
-  .content{
-    padding: 0;
-  }
+  /* .content{
+
+  } */
   
 }
